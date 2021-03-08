@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1rem;
+}
+
+.container h1 {
+    margin-top: 2rem;
+}
+
+.container button {
+    width: 100px;
+    padding: .3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    
+    background: none;
+    color: var(--button);
+    border: 1px solid var(--button);
+}
+
+.container button:hover {
+    background: var(--button);
+
+    border: 1px solid #fcfffc;
+    color: var(--white);
+
+    transition: all .4s ease-in-out;
+}
+
+.container form label {
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+
+.container form input {
+    padding: .3rem;
+}
+
+.controllers {
+    margin-top: 2rem;
+    width: 50%;
+
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 1px solid var(--button);
+    padding-bottom: 1rem;
+}
+
+.controllers button {
+    margin-left: 0;
+}
+
+.controllers p {
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1200px){
+    .container {
+        width: 100%;
+    }
+    
+    .controllers{
+        width: 95%;
+    }
+}

@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --button: #0d0d0d;
+  --white: #f4fffd;
+}
+
+body {
+  background: var(--white);
+  padding-bottom: 3rem;
+}

@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.container img {
+    width: 300px;
+    max-height: 300px;
+} 
+
+.articleContainer {
+    display: flex;
+    gap: 1rem;
+}
+
+.articleInfos {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.articleInfos a {
+    font-size: 1.5rem;
+}  
+
+
+@media screen and (max-width: 1200px){
+    .container {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .articleContainer {
+        flex-direction: column;
+    }
+}
